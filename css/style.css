@@ -156,12 +156,18 @@ header .container .icon {
     align-items: center;
 }
 header .container .icon a {height:100%;}
-header .container .icon img {
+header .container .icon img  {
 padding:15px;
 margin-left:10px;
 height:100%;
 }
 
+@media (max-width:600px) {
+    header .container .icon img {
+        margin-left:0;
+        padding-right:0px}
+    
+}
 /* End Header */
 
 /* Start Nav */
@@ -287,6 +293,14 @@ footer .container .icon img {
 margin-left:20px;
 height:100%;
 padding-top:20px;
+    
+}
+
+@media (max-width:600px) {
+    footer .container {
+        flex-direction:column;
+    }
+    footer .container .right_footer {border-left:0;border-bottom:2px solid #CCC;padding-bottom:15px;}
     
 }
 
