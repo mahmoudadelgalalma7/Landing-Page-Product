@@ -199,6 +199,7 @@ aside .container {
     color:#FFF;
     background-color:#222;
     padding:50px;
+    margin-top:25px;
 
 }
 
@@ -251,13 +252,14 @@ section .container .box .slider img {
 section .container .box >p {
     direction:rtl;
     padding:5px;
-    min-height:150px;
+    min-height:70px;
     font-size:18px;
     word-spacing:1.4px;
     font-weight:bold;
     border:1px solid #CCC;
     border-top:0;
     line-height:1.4;
+    width:100%;
 }
 section .container .box .price {
     display:flex;
@@ -270,14 +272,15 @@ section .container .box .price {
 }
 
 section .container .box .price span {
-    text-decoration:line-through;}
+    text-decoration:line-through;
+color:#111;}
 
 section .container .box .price span,
 section .container .box .price p {
-    color:red;
 font-size:19px;
 direction: rtl;}
 
+section .container .box .price p {color:red;}
 section .container .box  .button{
 border-right:1px solid #CCC;
 padding-right:5px;
